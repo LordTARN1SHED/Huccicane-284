@@ -82,7 +82,7 @@ We identified that serialized verification and excessive buffering were bottlene
 -   **Results:**
     -   **Simulation Speed:** Improved by **43.7%** (2142 cycles $\to$ 1205 cycles).
     -   [cite_start]**Area Efficiency:** Reduced register usage by **51%** (12,098 $\to$ 5,922 registers)[cite: 461].
-
+![Project Poster](doc/Project_Poster.jpg)
 ---
 
 ## 📊 Performance Benchmarks
