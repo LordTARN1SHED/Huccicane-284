@@ -99,7 +99,39 @@ We identified that serialized verification and excessive buffering were bottlene
 ---
 
 ## 📂 Repository Structure
+
+
 ## 🛠 Getting Started
+
+This section guides you through setting up the environment, generating test data, and running the hardware simulation.
+
+### Prerequisites
+
+Ensure you have the following software installed:
+
+* **Simulation:** [Icarus Verilog](http://iverilog.icarus.com/) (v10.0+) or ModelSim.
+* **Synthesis:** Intel Quartus Prime 19.1 (Lite or Standard Edition).
+* **Python Environment:** Python 3.8+ with `torch` and `numpy`.
+
+### Installation
+
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/GroupHurricane/Huccicane-284.git](https://github.com/GroupHurricane/Huccicane-284.git)
+    cd Huccicane-284
+    ```
+
+2.  **Install Python dependencies**
+    ```bash
+    pip install torch numpy
+    ```
+
+### Execution Steps
+
+#### 1. Generate Test Vectors & Machine Code
+Run the Python script to perform inference, quantize the model, and generate the necessary `.txt` files (`input.txt`, `weight.txt`, `output_ref.txt`) for the hardware testbench.
+
+
 ## 👥 Team Members
 
 **Group Hurricane** (UCSD ECE 284 Fall 2025)
